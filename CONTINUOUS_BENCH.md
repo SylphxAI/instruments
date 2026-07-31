@@ -31,3 +31,12 @@ Artifacts land in each repo’s `benchmark-artifacts/` (product CI/tags own ship
 
 Publishing peer-beating benches to a public site/dashboard is **Phase C residual**
 (scripts exist; continuous publish pipeline not claimed Done).
+
+## Automated local runner
+
+```bash
+bash scripts/run-family-proofs.sh
+```
+
+Runs each sibling product proof/gate when those checkouts exist beside `instruments`.
+Does **not** publish continuously (Phase C residual).
