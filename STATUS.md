@@ -1,6 +1,6 @@
 # Instruments readiness (honest)
 
-Last verified: 2026-07-31 (impact reverse, release gates, skill).
+Last verified: 2026-07-31 (C#, skills, phase targets, gates).
 This is **portfolio knowledge**, not product release authority. Each product’s CI and tags own ship truth.
 
 ## Legend
@@ -15,12 +15,12 @@ This is **portfolio knowledge**, not product release authority. Each product’s
 
 | Brand | Repo | Surfaces | Behavior evidence (examples) | Residual vs bar |
 | --- | --- | --- | --- | --- |
-| **Citra** | pdf-reader-mcp | Strong | `Citra` SDK export tests; production native path; marketplace `server.json` title Citra | Package id still transitional `@sylphx/pdf-reader-mcp`; optional `@sylphx/citra` publish |
-| **Iris** | image-reader-mcp | Strong | SDK/CLI/MCP; release-gate brand Iris 15/15 | Depth still thinner than Citra benches |
-| **Cue** | video-reader-mcp | Strong | SDK/CLI/MCP; release-gate brand Cue 26/26 | ffprobe-dependent residual |
-| **Prism** | smart-reader-mcp | Strong | Dispatch; release-gate brand Prism 24/24 | e2e needs sibling natives |
-| **Spine** | architecture-reader-mcp | Strong/Partial | Ranked search; reverse **incomingImpact**; Java; agent skill; public proof; 62 core tests | Not full Graphify/UA UX/skill ecosystem parity |
-| **Lookout** | lookout | Strong/Partial | CI + release-gate; DDG unwrap; research; 19 tests | Not full wigolo browser loops |
+| **Citra** | pdf-reader-mcp | Strong | Flagship SDK/CLI/MCP/native; server.json Citra | Transitional package id; optional `@sylphx/citra` publish |
+| **Iris** | image-reader-mcp | Strong | Skill + public-proof; release-gate incl. brand/skill | Citra-depth benches residual |
+| **Cue** | video-reader-mcp | Strong | Skill; release-gate brand+skill | ffprobe residual |
+| **Prism** | smart-reader-mcp | Strong | Skill; release-gate brand+skill | e2e needs sibling natives |
+| **Spine** | architecture-reader-mcp | Strong/Partial | C# + multi-lang; reverse impact; skill; release-gate 22/22; 63 tests | Not full Graphify/UA ecosystem parity |
+| **Lookout** | lookout | Strong/Partial | Skill; release-gate 9/9; CI | Not full wigolo browser loops |
 
 ## What Instruments is
 
@@ -38,6 +38,8 @@ an `instruments` package or aliases farm. Composition is via public SDK/MCP cont
 
 - `filesystem-mcp` — archived  
 - `awesome-mcp-servers` — archived  
+
+Phase targets: [PHASE_TARGETS.md](./PHASE_TARGETS.md).
 
 ## Not claimed complete
 
