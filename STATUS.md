@@ -1,6 +1,6 @@
 # Instruments readiness (honest)
 
-Last verified: 2026-07-31 (path suggestions, impact fromNode/toNode, lookout prune SDK).
+Last verified: 2026-07-31 (evidence resolve/missing, expanded public proof, UA env).
 This is **portfolio knowledge**, not product release authority. Each product’s CI and tags own ship truth.
 
 ## Legend
@@ -19,8 +19,8 @@ This is **portfolio knowledge**, not product release authority. Each product’s
 | **Iris** | image-reader-mcp | Strong | Public proof; OCR path reported honest when tesseract absent | Citra-depth OCR residual |
 | **Cue** | video-reader-mcp | Strong | Public proof with ffprobe/duration honesty | Live brand npm needs auth |
 | **Prism** | smart-reader-mcp | Strong | Sniff public proof PDF/PNG/MP4; skill + gate | e2e sibling natives residual |
-| **Spine** | architecture-reader-mcp | Strong/Partial | path suggestions; impact node summaries; hop provenance; 73 tests; gate 24/24 | Not full Graphify/UA ecosystem |
-| **Lookout** | lookout | Strong/Partial | SDK prune; contentType extract; cache maxAge; 27 tests | Not full wigolo browser loops |
+| **Spine** | architecture-reader-mcp | Strong/Partial | evidence resolve/missing; path suggestions; impact node summaries; expanded public proof; 74 tests; gate 24/24 | Not full Graphify/UA ecosystem |
+| **Lookout** | lookout | Strong/Partial | LOOKOUT_USER_AGENT; prune/maxAge; contentType extract; 27 tests | Not full wigolo browser loops |
 
 ## What Instruments is
 
