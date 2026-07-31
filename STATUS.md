@@ -1,6 +1,6 @@
 # Instruments readiness (honest)
 
-Last verified: 2026-07-31 (skills family-wide, public proofs, brand-pack plans).
+Last verified: 2026-07-31 (overview neighbors, Kotlin, offline research).
 This is **portfolio knowledge**, not product release authority. Each product’s CI and tags own ship truth.
 
 ## Legend
@@ -16,11 +16,11 @@ This is **portfolio knowledge**, not product release authority. Each product’s
 | Brand | Repo | Surfaces | Behavior evidence (examples) | Residual vs bar |
 | --- | --- | --- | --- | --- |
 | **Citra** | pdf-reader-mcp | Strong | Flagship native/SDK/CLI/MCP; skill; brand-pack plan | Live `@sylphx/citra` publish needs npm auth |
-| **Iris** | image-reader-mcp | Strong | Public proof sample.png; release-gate + skill + brand doc | Citra-depth OCR benches residual |
+| **Iris** | image-reader-mcp | Strong | Public proof; OCR path reported honest when tesseract absent | Citra-depth OCR residual |
 | **Cue** | video-reader-mcp | Strong | Public proof no-subtitle.mp4; release-gate + skill | Live dual-name publish needs npm auth |
 | **Prism** | smart-reader-mcp | Strong | Sniff public proof PDF/PNG/MP4; skill + gate | e2e sibling natives residual |
-| **Spine** | architecture-reader-mcp | Strong/Partial | Multi-lang + reverse impact; release-gate green; skill | Not full Graphify/UA ecosystem parity |
-| **Lookout** | lookout | Strong/Partial | Offline public proof; CI + release-gate; skill | Not full wigolo browser loops |
+| **Spine** | architecture-reader-mcp | Strong/Partial | Overview **neighbors**; Kotlin; multi-lang; reverse impact; gate green | Not full Graphify/UA UX ecosystem |
+| **Lookout** | lookout | Strong/Partial | Offline research pipeline unit proof; public proof; CI/gate | Not full wigolo browser loops |
 
 ## What Instruments is
 

@@ -25,8 +25,8 @@ Each product independently delivers:
 | Iris | VLM-default stacks | Deterministic media twin + OCR bbox + release-gate | Public proof + gate |
 | Cue | frame VLM stacks | Timeline evidence + ffprobe honesty | Public proof + gate |
 | Prism | multi-server wiring | Single sniff/route with evidence envelope | Sniff public proof |
-| Spine | Understand-Anything / Graphify | Ranked query, path, reverse impact, multi-language, skill | TS/Py/Rust/Go/Java/C#; reverse impact |
-| Lookout | wigolo | Light default search/fetch/extract/research + SSRF + CI | Offline public proof |
+| Spine | Understand-Anything / Graphify | Ranked query, path, reverse impact, multi-language, skill | Neighbors via overview focus; TS/Py/Rust/Go/Java/C#/Kotlin |
+| Lookout | wigolo | Light default search/fetch/extract/research + SSRF + CI | Offline research pipeline unit + public proof |
 
 Residual: full peer feature parity and peer-beating published benches.
 
