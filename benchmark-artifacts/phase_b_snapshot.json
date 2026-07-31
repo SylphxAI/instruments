@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-07-31T18:42:55Z",
+  "phaseA": "PHASE_A_CHECK=PASS",
+  "tips": {
+    "pdf-reader-mcp": "ece45af",
+    "image-reader-mcp": "e24ff68",
+    "video-reader-mcp": "c9ddb3c",
+    "smart-reader-mcp": "430f61b",
+    "architecture-reader-mcp": "6ed941f",
+    "lookout": "578d012",
+    "instruments": "4d23ed9"
+  }
+}

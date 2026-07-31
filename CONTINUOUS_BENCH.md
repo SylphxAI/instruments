@@ -47,3 +47,11 @@ Does **not** publish continuously (Phase C residual).
 bash scripts/check-phase-a.sh
 ```
 
+
+## Phase B tip snapshot
+
+```bash
+bash scripts/phase-b-snapshot.sh
+```
+
+Writes `benchmark-artifacts/phase_b_snapshot.json` with tip SHAs + Phase A line.
