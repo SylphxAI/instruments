@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-31T19:00:00Z",
+  "generatedAt": "2026-07-31T19:30:00Z",
   "phaseA": "PHASE_A_CHECK=PASS",
   "tips": {
-    "architecture-reader-mcp": "3ade857",
-    "lookout": "684fdcd",
+    "architecture-reader-mcp": "7f7eb3b",
+    "lookout": "a816b62",
     "image-reader-mcp": "397dfcf",
     "video-reader-mcp": "c9ddb3c",
     "smart-reader-mcp": "430f61b",
     "pdf-reader-mcp": "ece45af",
-    "instruments": "274cdc7"
+    "instruments": "pending"
   }
 }

@@ -26,7 +26,7 @@ Family surface audit: `bash scripts/check-phase-a.sh` → `PHASE_A_CHECK=PASS`.
 | Iris | VLM-default stacks | Deterministic media twin + OCR bbox + release-gate | Synthetic OCR fixture + list-langs honesty + gate |
 | Cue | frame VLM stacks | Timeline evidence + ffprobe honesty | Public proof + gate |
 | Prism | multi-server wiring | Single sniff/route with evidence envelope | Sniff public proof |
-| Spine | Understand-Anything / Graphify | Ranked query, path, reverse impact, multi-language, skill | Mermaid; proto/graphql/sql/docker/make/CODEOWNERS/workflows/shell/C; npm scripts; cycles/orphans |
+| Spine | Understand-Anything / Graphify | Ranked query, path, reverse impact, multi-language, skill | Mermaid; OpenAPI+proto/graphql/sql/docker/make/CODEOWNERS/workflows/shell/C; npm scripts; cycles/orphans |
 | Lookout | wigolo | Light default search/fetch/extract/research + SSRF + CI | Multi-adapter search; robots crawl; research hosts; crawl excerpts; SSRF |
 
 Residual: full peer feature parity and peer-beating published benches.
