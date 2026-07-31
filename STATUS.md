@@ -1,6 +1,6 @@
 # Instruments readiness (honest)
 
-Last verified: 2026-07-31 (terraform+cargo workspace; sitemap crawl; lookout npm pack dry-run; family gates PASS).
+Last verified: 2026-07-31 (k8s extractor; family npm pack dry-run PASS all 6; Phase A PASS).
 This is **portfolio knowledge**, not product release authority. Each product’s CI and tags own ship truth.
 
 Master strategy + backlog: **[STRATEGY.md](./STRATEGY.md)**.
@@ -21,7 +21,7 @@ Master strategy + backlog: **[STRATEGY.md](./STRATEGY.md)**.
 | **Iris** | image-reader-mcp | Strong | early | **`1e7650f`**: 30s install + OCR fixture honesty; tests **38** | Multi-lang traineddata corpus residual |
 | **Cue** | video-reader-mcp | Strong | early | **`a537789`**: 30s install + ocr_frame + ASR honesty; tests **42** | Whisper depth when adapter present |
 | **Prism** | smart-reader-mcp | Strong | early | **`b503f2b`**: mock e2e + expectedDelegation + 30s install docs; tests **56** | Live native e2e optional |
-| **Spine** | architecture-reader-mcp | Strong/Partial | early | **`24a7a0f`**: terraform + cargo workspace; multi-format+mermaid; core **99**; gate **24/24** | UA interactive UX residual |
+| **Spine** | architecture-reader-mcp | Strong/Partial | early | **`8fae297`**: k8s+terraform+cargo+openapi+…; core **100**; gate **24/24**; public-proof ok | UA interactive UX residual |
 | **Lookout** | lookout | Strong/Partial | early | **`e20a698`**: sitemap seed; robots Allow; npm pack dry-run `@sylphx/lookout@0.1.0` | Live npm needs auth; not multi-GB browser |
 
 Peer anchors (order of magnitude): Graphify ~100k, Understand-Anything ~77k, wigolo ~4k.
@@ -39,6 +39,10 @@ an `instruments` package or aliases farm. Composition is via public SDK/MCP cont
 - Evidence = result contract, not a tool name
 
 ## Phase status
+
+**npm pack dry-run matrix** (`bun scripts/npm-pack-dry-run-matrix.ts`): **ok=True** for all six packages. Live publish still blocked on `@sylphx` npm auth.
+
+
 
 - **Phase A surfaces:** landed + **`scripts/check-phase-a.sh` PASS** (all six products)
 - **Phase B competitive depth:** partial (graphql/make/owners, robots crawl, OCR fixture; peer UX residual)

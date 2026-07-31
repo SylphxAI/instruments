@@ -26,7 +26,7 @@ Family surface audit: `bash scripts/check-phase-a.sh` → `PHASE_A_CHECK=PASS`.
 | Iris | VLM-default stacks | Deterministic media twin + OCR bbox + release-gate | Synthetic OCR fixture + list-langs honesty + gate |
 | Cue | frame VLM stacks | Timeline evidence + ffprobe honesty | Public proof + gate |
 | Prism | multi-server wiring | Single sniff/route with evidence envelope | Sniff public proof |
-| Spine | Understand-Anything / Graphify | Ranked query, path, reverse impact, multi-language, skill | Mermaid; OpenAPI+proto/graphql/sql/docker/make/CODEOWNERS/workflows/shell/C; npm scripts; cycles/orphans |
+| Spine | Understand-Anything / Graphify | Ranked query, path, reverse impact, multi-language, skill | Mermaid; OpenAPI+k8s+terraform+proto/graphql/sql/docker/make/CODEOWNERS/workflows/shell/C; cargo workspace; cycles/orphans |
 | Lookout | wigolo | Light default search/fetch/extract/research + SSRF + CI | Multi-adapter search; robots crawl; research hosts; crawl excerpts; SSRF |
 
 Residual: full peer feature parity and peer-beating published benches.
@@ -38,7 +38,7 @@ Residual: full peer feature parity and peer-beating published benches.
 3. Marketplace listings per repo
 4. 10k-star craft (demo, install friction, honest limits)
 
-**Live npm publish** requires `@sylphx` scope automation token (not present in this environment). Dry-run readiness: `bun scripts/brand-pack-plan.ts` in each product.
+**Live npm publish** requires `@sylphx` scope automation token (not present in this environment). Dry-run readiness: `bun scripts/brand-pack-plan.ts` per product and family `bun scripts/npm-pack-dry-run-matrix.ts` (all six pack dry-runs PASS).
 
 ## Explicit non-goals
 

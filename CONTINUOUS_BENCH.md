@@ -81,3 +81,11 @@ bun scripts/brand-pack-plan.ts
 ```
 
 Live publish requires `@sylphx` npm auth (external).
+
+## Family npm pack dry-run matrix
+
+```bash
+bun scripts/npm-pack-dry-run-matrix.ts
+```
+
+Writes `benchmark-artifacts/family_npm_pack_dry_run.json`.

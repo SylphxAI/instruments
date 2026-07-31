@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-07-31T18:58:37.752Z",
+  "products": [
+    {
+      "brand": "Citra",
+      "name": "@sylphx/pdf-reader-mcp",
+      "cwd": "pdf-reader-mcp",
+      "ok": true,
+      "exitCode": 0,
+      "packageSize": "18.5 kB",
+      "totalFiles": 16,
+      "filename": "sylphx-pdf-reader-mcp-4.1.2.tgz"
+    },
+    {
+      "brand": "Iris",
+      "name": "@sylphx/image-reader-mcp",
+      "cwd": "image-reader-mcp",
+      "ok": true,
+      "exitCode": 0,
+      "packageSize": "3.0 MB",
+      "totalFiles": 18,
+      "filename": "sylphx-image-reader-mcp-0.1.0.tgz"
+    },
+    {
+      "brand": "Cue",
+      "name": "@sylphx/video-reader-mcp",
+      "cwd": "video-reader-mcp",
+      "ok": true,
+      "exitCode": 0,
+      "packageSize": "2.3 MB",
+      "totalFiles": 45,
+      "filename": "sylphx-video-reader-mcp-0.1.0.tgz"
+    },
+    {
+      "brand": "Prism",
+      "name": "@sylphx/smart-reader-mcp",
+      "cwd": "smart-reader-mcp",
+      "ok": true,
+      "exitCode": 0,
+      "packageSize": "1.4 MB",
+      "totalFiles": 42,
+      "filename": "sylphx-smart-reader-mcp-0.2.1.tgz"
+    },
+    {
+      "brand": "Spine",
+      "name": "@sylphx/architecture-reader-mcp",
+      "cwd": "architecture-reader-mcp/packages/mcp-server",
+      "ok": true,
+      "exitCode": 0,
+      "packageSize": "3.6 kB",
+      "totalFiles": 5,
+      "filename": "sylphx-architecture-reader-mcp-0.2.0.tgz"
+    },
+    {
+      "brand": "Lookout",
+      "name": "@sylphx/lookout",
+      "cwd": "lookout",
+      "ok": true,
+      "exitCode": 0,
+      "packageSize": "21.5 kB",
+      "totalFiles": 21,
+      "filename": "sylphx-lookout-0.1.0.tgz"
+    }
+  ],
+  "ok": true,
+  "livePublishBlocker": "npm automation token / 2FA for @sylphx scope (external)",
+  "note": "Dry-run only — not a live publish. Phase C residual."
+}
