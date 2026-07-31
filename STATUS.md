@@ -1,6 +1,6 @@
 # Instruments readiness (honest)
 
-Last verified: 2026-07-31.
+Last verified: 2026-07-31 (Spine orphans/browse fanIn; Lookout query-term + host filters).
 This is **portfolio knowledge**, not product release authority. Each product’s CI and tags own ship truth.
 
 Master strategy + backlog: **[STRATEGY.md](./STRATEGY.md)**.
@@ -15,14 +15,14 @@ Master strategy + backlog: **[STRATEGY.md](./STRATEGY.md)**.
 
 ## Matrix
 
-| Brand | Repo | Surfaces | Public stars (approx) | Behavior evidence (examples) | Residual vs bar |
+| Brand | Repo | Surfaces | Public stars (approx) | Tip evidence | Residual vs bar |
 | --- | --- | --- | --- | --- | --- |
-| **Citra** | pdf-reader-mcp | Strong | **~875** | Skill sources API; public-proof sample.pdf | Live `@sylphx/citra` needs npm auth |
-| **Iris** | image-reader-mcp | Strong | early | Skill OCR honesty; public-proof | Citra-depth OCR residual |
-| **Cue** | video-reader-mcp | Strong | early | Skill + public-proof ffprobe honesty | Live brand npm needs auth |
-| **Prism** | smart-reader-mcp | Strong | early | Skill sniff SDK; public-proof | e2e needs sibling natives |
-| **Spine** | architecture-reader-mcp | Strong/Partial | early | multi-lang extractors; path/impact/neighbors/cycles; gates | Not full Graphify/UA ecosystem |
-| **Lookout** | lookout | Strong/Partial | early | search/fetch/extract/research; SSRF; host diversity | Not full wigolo browser loops |
+| **Citra** | pdf-reader-mcp | Strong | **~875** | public-proof sample.pdf; skill sources API | Live `@sylphx/citra` needs npm auth |
+| **Iris** | image-reader-mcp | Strong | early | release-gate passed; OCR honesty skill | Citra-depth OCR residual |
+| **Cue** | video-reader-mcp | Strong | early | release-gate passed; ffprobe honesty | Live brand npm needs auth |
+| **Prism** | smart-reader-mcp | Strong | early | release-gate passed; sniff public-proof | e2e needs sibling natives |
+| **Spine** | architecture-reader-mcp | Strong/Partial | early | **`aae41b0`**: orphans on overview/status; empty-browse skips repository + `fanIn=` explain; core **81** tests; gate **24/24** | Not full Graphify/UA ecosystem; advanced `context_pack` still open |
+| **Lookout** | lookout | Strong/Partial | early | **`2c3d136`+**: query-term boost; **hostsInclude/hostsExclude**; tests **32** pass / 1 skip; gate green | Not full wigolo browser loops |
 
 Peer anchors (order of magnitude): Graphify ~100k, Understand-Anything ~77k, wigolo ~4k.
 
@@ -40,8 +40,8 @@ an `instruments` package or aliases farm. Composition is via public SDK/MCP cont
 
 ## Phase status
 
-- **Phase A surfaces:** landed (see [PHASE_TARGETS.md](./PHASE_TARGETS.md))
-- **Phase B competitive depth:** partial
+- **Phase A surfaces:** landed
+- **Phase B competitive depth:** partial (incremental Spine/Lookout tip progress)
 - **Phase C brand/growth:** open (npm auth external blocker for live brand publish)
 
 ## Archived (explicit)
@@ -51,4 +51,4 @@ an `instruments` package or aliases farm. Composition is via public SDK/MCP cont
 
 ## Not claimed complete
 
-Equal SOTA peer parity across all six, formal live brand npm publishes (`@sylphx/citra`, …), and continuous peer-beating public benches remain **open**.
+Equal SOTA peer parity across all six, formal live brand npm publishes (`@sylphx/citra`, …), continuous peer-beating public benches, and Spine `architecture_context_pack` remain **open**.
