@@ -63,3 +63,11 @@ bun scripts/aggregate-public-proofs.ts
 ```
 
 Reads each product `benchmark-artifacts/*` into `family_public_proof_aggregate.json`.
+
+## Family release-gate aggregate
+
+```bash
+bun scripts/run-family-release-gates.ts
+```
+
+Writes `benchmark-artifacts/family_release_gate_aggregate.json`.

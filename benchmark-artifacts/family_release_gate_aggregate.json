@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-07-31T18:53:13.554Z",
+  "products": [
+    {
+      "brand": "Citra",
+      "repo": "pdf-reader-mcp",
+      "script": "scripts/public-proof.ts",
+      "exitCode": 0,
+      "ok": true,
+      "ms": 33.091295,
+      "stderrTail": ""
+    },
+    {
+      "brand": "Iris",
+      "repo": "image-reader-mcp",
+      "script": "scripts/release-gate.ts",
+      "exitCode": 0,
+      "ok": true,
+      "ms": 56.25564,
+      "stderrTail": "Image reader release gate report written to /home/codex/src/github.com/SylphxAI/image-reader-mcp/benchmark-artifacts/image_reader_release_gate.json\n"
+    },
+    {
+      "brand": "Cue",
+      "repo": "video-reader-mcp",
+      "script": "scripts/release-gate.ts",
+      "exitCode": 0,
+      "ok": true,
+      "ms": 1151.43431,
+      "stderrTail": "Video reader release gate report written to /home/codex/src/github.com/SylphxAI/video-reader-mcp/benchmark-artifacts/video_reader_release_gate.json\n"
+    },
+    {
+      "brand": "Prism",
+      "repo": "smart-reader-mcp",
+      "script": "scripts/release-gate.ts",
+      "exitCode": 0,
+      "ok": true,
+      "ms": 518.381893,
+      "stderrTail": "Smart reader release gate report written to /home/codex/src/github.com/SylphxAI/smart-reader-mcp/benchmark-artifacts/smart_reader_release_gate.json\n"
+    },
+    {
+      "brand": "Spine",
+      "repo": "architecture-reader-mcp",
+      "script": "scripts/release-gate.ts",
+      "exitCode": 0,
+      "ok": true,
+      "ms": 1382.592269,
+      "stderrTail": "Architecture reader release gate report written to /home/codex/src/github.com/SylphxAI/architecture-reader-mcp/benchmark-artifacts/architecture_reader_release_gate.json\n"
+    },
+    {
+      "brand": "Lookout",
+      "repo": "lookout",
+      "script": "scripts/release-gate.ts",
+      "exitCode": 0,
+      "ok": true,
+      "ms": 25.506756000000223,
+      "stderrTail": ""
+    }
+  ],
+  "brandOk": true,
+  "ok": true,
+  "note": "Local gate/proof aggregate only — not continuous public publish (Phase C residual)."
+}

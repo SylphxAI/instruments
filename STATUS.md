@@ -1,6 +1,6 @@
 # Instruments readiness (honest)
 
-Last verified: 2026-07-31 (Spine expanded public-proof; family proof aggregate ok; Phase A PASS).
+Last verified: 2026-07-31 (family release-gate aggregate PASS all 6 brands; spine --mermaid CLI; robots Allow).
 This is **portfolio knowledge**, not product release authority. Each product’s CI and tags own ship truth.
 
 Master strategy + backlog: **[STRATEGY.md](./STRATEGY.md)**.
@@ -18,11 +18,11 @@ Master strategy + backlog: **[STRATEGY.md](./STRATEGY.md)**.
 | Brand | Repo | Surfaces | Public stars (approx) | Tip evidence | Residual vs bar |
 | --- | --- | --- | --- | --- | --- |
 | **Citra** | pdf-reader-mcp | Strong | **~875** | public-proof sample.pdf; skill sources API | Live `@sylphx/citra` needs npm auth |
-| **Iris** | image-reader-mcp | Strong | early | **`397dfcf`**: synthetic OCR fixture honesty; list-langs; tests **38** | Multi-lang traineddata corpus residual |
-| **Cue** | video-reader-mcp | Strong | early | **`c9ddb3c`**: ocr_frame + ASR honesty in public-proof; tests **42** | Whisper depth residual when adapter present |
+| **Iris** | image-reader-mcp | Strong | early | **`1e7650f`**: 30s install + OCR fixture honesty; tests **38** | Multi-lang traineddata corpus residual |
+| **Cue** | video-reader-mcp | Strong | early | **`a537789`**: 30s install + ocr_frame + ASR honesty; tests **42** | Whisper depth when adapter present |
 | **Prism** | smart-reader-mcp | Strong | early | **`b503f2b`**: mock e2e + expectedDelegation + 30s install docs; tests **56** | Live native e2e optional |
-| **Spine** | architecture-reader-mcp | Strong/Partial | early | **`37cd119`**: expanded public-proof (openapi+mermaid+multi-format); core **97**; gate **24/24** | UA interactive UX residual |
-| **Lookout** | lookout | Strong/Partial | early | **`a816b62`**: robots crawl+optional fetch; 30s install docs; multi-adapter search; tests **39**/1 skip | Not multi-GB browser agent |
+| **Spine** | architecture-reader-mcp | Strong/Partial | early | **`b2d7e04`**: CLI `--mermaid`; OpenAPI+multi-format; public-proof ok; gate **24/24** | UA interactive UX residual |
+| **Lookout** | lookout | Strong/Partial | early | **`54048e1`**: robots Allow+Disallow; crawl/fetch robots; 30s install | Not multi-GB browser agent |
 
 Peer anchors (order of magnitude): Graphify ~100k, Understand-Anything ~77k, wigolo ~4k.
 
@@ -51,4 +51,4 @@ an `instruments` package or aliases farm. Composition is via public SDK/MCP cont
 
 ## Not claimed complete
 
-Equal SOTA peer parity across all six, formal live brand npm publishes (`@sylphx/citra`, …), and continuous *published* peer-beating benches remain **open**. Local aggregate: `bun scripts/aggregate-public-proofs.ts` → `benchmark-artifacts/family_public_proof_aggregate.json` (ok=True).
+Equal SOTA peer parity across all six, formal live brand npm publishes (`@sylphx/citra`, …), and continuous *published* peer-beating benches remain **open**. Local aggregates: `bun scripts/aggregate-public-proofs.ts`, `bun scripts/run-family-release-gates.ts` (brandOk=True) → `benchmark-artifacts/family_public_proof_aggregate.json` (ok=True).
