@@ -1,6 +1,6 @@
 # Instruments readiness (honest)
 
-Last verified: 2026-07-31 (family release-gate aggregate PASS all 6 brands; spine --mermaid CLI; robots Allow).
+Last verified: 2026-07-31 (terraform+cargo workspace; sitemap crawl; lookout npm pack dry-run; family gates PASS).
 This is **portfolio knowledge**, not product release authority. Each product’s CI and tags own ship truth.
 
 Master strategy + backlog: **[STRATEGY.md](./STRATEGY.md)**.
@@ -21,8 +21,8 @@ Master strategy + backlog: **[STRATEGY.md](./STRATEGY.md)**.
 | **Iris** | image-reader-mcp | Strong | early | **`1e7650f`**: 30s install + OCR fixture honesty; tests **38** | Multi-lang traineddata corpus residual |
 | **Cue** | video-reader-mcp | Strong | early | **`a537789`**: 30s install + ocr_frame + ASR honesty; tests **42** | Whisper depth when adapter present |
 | **Prism** | smart-reader-mcp | Strong | early | **`b503f2b`**: mock e2e + expectedDelegation + 30s install docs; tests **56** | Live native e2e optional |
-| **Spine** | architecture-reader-mcp | Strong/Partial | early | **`b2d7e04`**: CLI `--mermaid`; OpenAPI+multi-format; public-proof ok; gate **24/24** | UA interactive UX residual |
-| **Lookout** | lookout | Strong/Partial | early | **`54048e1`**: robots Allow+Disallow; crawl/fetch robots; 30s install | Not multi-GB browser agent |
+| **Spine** | architecture-reader-mcp | Strong/Partial | early | **`24a7a0f`**: terraform + cargo workspace; multi-format+mermaid; core **99**; gate **24/24** | UA interactive UX residual |
+| **Lookout** | lookout | Strong/Partial | early | **`e20a698`**: sitemap seed; robots Allow; npm pack dry-run `@sylphx/lookout@0.1.0` | Live npm needs auth; not multi-GB browser |
 
 Peer anchors (order of magnitude): Graphify ~100k, Understand-Anything ~77k, wigolo ~4k.
 

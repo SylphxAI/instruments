@@ -71,3 +71,13 @@ bun scripts/run-family-release-gates.ts
 ```
 
 Writes `benchmark-artifacts/family_release_gate_aggregate.json`.
+
+## npm pack dry-run (Phase C readiness)
+
+```bash
+# each product repo
+npm pack --dry-run
+bun scripts/brand-pack-plan.ts
+```
+
+Live publish requires `@sylphx` npm auth (external).

@@ -1,10 +1,11 @@
 {
-  "generatedAt": "2026-07-31T19:00:00Z",
+  "generatedAt": "2026-07-31T19:20:00Z",
   "phaseA": "PHASE_A_CHECK=PASS",
   "familyReleaseGateBrandOk": true,
+  "lookoutNpmPackDryRun": "@sylphx/lookout@0.1.0",
   "tips": {
-    "architecture-reader-mcp": "b2d7e04",
-    "lookout": "54048e1",
+    "architecture-reader-mcp": "24a7a0f",
+    "lookout": "e20a698",
     "image-reader-mcp": "1e7650f",
     "video-reader-mcp": "a537789",
     "smart-reader-mcp": "b503f2b",
