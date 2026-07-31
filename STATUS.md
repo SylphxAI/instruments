@@ -1,6 +1,6 @@
 # Instruments readiness (honest)
 
-Last verified: 2026-07-31 (C#, skills, phase targets, gates).
+Last verified: 2026-07-31 (skills family-wide, public proofs, brand-pack plans).
 This is **portfolio knowledge**, not product release authority. Each product’s CI and tags own ship truth.
 
 ## Legend
@@ -15,12 +15,12 @@ This is **portfolio knowledge**, not product release authority. Each product’s
 
 | Brand | Repo | Surfaces | Behavior evidence (examples) | Residual vs bar |
 | --- | --- | --- | --- | --- |
-| **Citra** | pdf-reader-mcp | Strong | Flagship SDK/CLI/MCP/native; server.json Citra | Transitional package id; optional `@sylphx/citra` publish |
-| **Iris** | image-reader-mcp | Strong | Skill + public-proof; release-gate incl. brand/skill | Citra-depth benches residual |
-| **Cue** | video-reader-mcp | Strong | Skill; release-gate brand+skill | ffprobe residual |
-| **Prism** | smart-reader-mcp | Strong | Skill; release-gate brand+skill | e2e needs sibling natives |
-| **Spine** | architecture-reader-mcp | Strong/Partial | C# + multi-lang; reverse impact; skill; release-gate 22/22; 63 tests | Not full Graphify/UA ecosystem parity |
-| **Lookout** | lookout | Strong/Partial | Skill; release-gate 9/9; CI | Not full wigolo browser loops |
+| **Citra** | pdf-reader-mcp | Strong | Flagship native/SDK/CLI/MCP; skill; brand-pack plan | Live `@sylphx/citra` publish needs npm auth |
+| **Iris** | image-reader-mcp | Strong | Public proof sample.png; release-gate + skill + brand doc | Citra-depth OCR benches residual |
+| **Cue** | video-reader-mcp | Strong | Public proof no-subtitle.mp4; release-gate + skill | Live dual-name publish needs npm auth |
+| **Prism** | smart-reader-mcp | Strong | Sniff public proof PDF/PNG/MP4; skill + gate | e2e sibling natives residual |
+| **Spine** | architecture-reader-mcp | Strong/Partial | Multi-lang + reverse impact; release-gate green; skill | Not full Graphify/UA ecosystem parity |
+| **Lookout** | lookout | Strong/Partial | Offline public proof; CI + release-gate; skill | Not full wigolo browser loops |
 
 ## What Instruments is
 
@@ -30,17 +30,21 @@ an `instruments` package or aliases farm. Composition is via public SDK/MCP cont
 
 ## Family rules (unchanged)
 
-- One product = one GitHub repo (marketplace + stars)  
-- Composition via public SDK/MCP, not monorepo product code  
-- Evidence = result contract, not a tool name  
+- One product = one GitHub repo (marketplace + stars)
+- Composition via public SDK/MCP, not monorepo product code
+- Evidence = result contract, not a tool name
+
+## Phase status
+
+- **Phase A surfaces:** landed (see [PHASE_TARGETS.md](./PHASE_TARGETS.md))
+- **Phase B competitive depth:** partial
+- **Phase C brand/growth:** open (npm auth external blocker for live brand publish)
 
 ## Archived (explicit)
 
-- `filesystem-mcp` — archived  
-- `awesome-mcp-servers` — archived  
-
-Phase targets: [PHASE_TARGETS.md](./PHASE_TARGETS.md).
+- `filesystem-mcp` — archived
+- `awesome-mcp-servers` — archived
 
 ## Not claimed complete
 
-Equal SOTA depth across all six, formal npm brand package publishes (`@sylphx/citra`, …), and peer-beating public benches for every product remain **open**.
+Equal SOTA peer parity across all six, formal live brand npm publishes (`@sylphx/citra`, …), and continuous peer-beating public benches remain **open**.
