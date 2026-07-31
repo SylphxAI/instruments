@@ -1,6 +1,6 @@
 # Instruments readiness (honest)
 
-Last verified: 2026-07-31 (extractor + extract depth).
+Last verified: 2026-07-31 (Spine languages + Lookout research).
 This is **portfolio knowledge**, not product release authority. Each product’s CI and tags own ship truth.
 
 ## Legend
@@ -19,8 +19,8 @@ This is **portfolio knowledge**, not product release authority. Each product’s
 | **Iris** | image-reader-mcp | Strong | `Iris.read` offline on `sample.png`; contract tests; server.json Iris | Full release-gate depth vs Citra still broader in PDF suite |
 | **Cue** | video-reader-mcp | Strong | `Cue.read({path})` real ffprobe timeline on fixture; path→sources normalize | Needs ffprobe for full path; video_evidence depth optional |
 | **Prism** | smart-reader-mcp | Strong | Magic-byte sniff tests; **e2e** PNG→Iris, MP4→Cue, PDF→Citra (when sibling binaries present) | Shell-bin launch fix; e2e skips without sibling natives |
-| **Spine** | architecture-reader-mcp | Strong/Partial | Rust core tests: path, impact git-diff, **TS/Python/Rust/Go** extractors + fixture search; CLI doctor 8 tools; SDK `Spine` | Not full Graphify/UA feature/UX parity; language breadth still expanding |
-| **Lookout** | lookout | Strong/Partial | SSRF/cache; extract with **headings/links/main-route**; doctor; MCP core+`web_crawl`; live search optional | Not full wigolo (browser/agent loops); light default by design |
+| **Spine** | architecture-reader-mcp | Strong/Partial | TS/Python/Rust/Go extractors; go.mod/pyproject manifests; path/impact/git-diff; 59 core tests tip | Not full Graphify/UA parity (languages/UX/skill surface) |
+| **Lookout** | lookout | Strong/Partial | Extract headings/links/main; advanced **web_research** + crawl; SSRF/doctor; 17 automated tests | Not full wigolo browser/agent loops; light default by design |
 
 ## What Instruments is
 
