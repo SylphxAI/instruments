@@ -21,10 +21,21 @@ product’s own repository.
 Agents call ordinary tools (`read_pdf`, `web_fetch`, `architecture_path`, …).
 Responses carry proof. There is no `evidence_first` tool.
 
-## Composition
+## Composition (company positioning, not monorepo work)
 
-Products compose through **public** SDK/MCP contracts (e.g. Prism delegates to
-Citra/Iris/Cue packages). They do not share a monorepo source tree for shipping.
+Sylphx products are **composable**: an agent or app may combine Citra + Spine +
+Lookout via **public** SDK imports and/or multiple MCP server entries. Prism may
+**delegate** to published Citra/Iris/Cue packages or stdio binaries.
+
+That composability is **not** implemented by:
+
+- a multi-product monorepo
+- `packages/instruments-aliases/*`
+- vendoring sibling product source trees
+- importing `SylphxAI/instruments` as a runtime package
+
+This repository is **portfolio knowledge**. Agents should know it; products do
+not ship it.
 
 ## Archived (not Instruments primary)
 
@@ -33,6 +44,5 @@ Citra/Iris/Cue packages). They do not share a monorepo source tree for shipping.
 
 ## Not a product runtime
 
-This repository documents company positioning. Product repositories **must not**
-depend on, vendor, or import `SylphxAI/instruments` as code. Agents and humans
-should *know* these rules; they do not *ship* them as a package inside each product.
+Product repositories **must not** depend on, vendor, or import
+`SylphxAI/instruments` as code. Full strategy and backlog: [STRATEGY.md](./STRATEGY.md).

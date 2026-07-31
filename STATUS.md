@@ -1,7 +1,9 @@
 # Instruments readiness (honest)
 
-Last verified: 2026-07-31 (browse fan-in search, relationKinds, crawl title decode).
+Last verified: 2026-07-31.
 This is **portfolio knowledge**, not product release authority. Each product’s CI and tags own ship truth.
+
+Master strategy + backlog: **[STRATEGY.md](./STRATEGY.md)**.
 
 ## Legend
 
@@ -13,14 +15,16 @@ This is **portfolio knowledge**, not product release authority. Each product’s
 
 ## Matrix
 
-| Brand | Repo | Surfaces | Behavior evidence (examples) | Residual vs bar |
-| --- | --- | --- | --- | --- |
-| **Citra** | pdf-reader-mcp | Strong | Skill sources API; public-proof sample.pdf | Live `@sylphx/citra` needs npm auth |
-| **Iris** | image-reader-mcp | Strong | Skill OCR honesty; public-proof | Citra-depth OCR residual |
-| **Cue** | video-reader-mcp | Strong | Skill + public-proof ffprobe honesty | Live brand npm needs auth |
-| **Prism** | smart-reader-mcp | Strong | Skill sniff SDK; public-proof | e2e needs sibling natives |
-| **Spine** | architecture-reader-mcp | Strong/Partial | empty-query fan-in browse; relationKinds; 79 tests; gate 24/24 | Not full Graphify/UA ecosystem |
-| **Lookout** | lookout | Strong/Partial | host hits; meta extract; crawl title entities; 30 tests | Not full wigolo browser loops |
+| Brand | Repo | Surfaces | Public stars (approx) | Behavior evidence (examples) | Residual vs bar |
+| --- | --- | --- | --- | --- | --- |
+| **Citra** | pdf-reader-mcp | Strong | **~875** | Skill sources API; public-proof sample.pdf | Live `@sylphx/citra` needs npm auth |
+| **Iris** | image-reader-mcp | Strong | early | Skill OCR honesty; public-proof | Citra-depth OCR residual |
+| **Cue** | video-reader-mcp | Strong | early | Skill + public-proof ffprobe honesty | Live brand npm needs auth |
+| **Prism** | smart-reader-mcp | Strong | early | Skill sniff SDK; public-proof | e2e needs sibling natives |
+| **Spine** | architecture-reader-mcp | Strong/Partial | early | multi-lang extractors; path/impact/neighbors/cycles; gates | Not full Graphify/UA ecosystem |
+| **Lookout** | lookout | Strong/Partial | early | search/fetch/extract/research; SSRF; host diversity | Not full wigolo browser loops |
+
+Peer anchors (order of magnitude): Graphify ~100k, Understand-Anything ~77k, wigolo ~4k.
 
 ## What Instruments is
 
@@ -33,8 +37,6 @@ an `instruments` package or aliases farm. Composition is via public SDK/MCP cont
 - One product = one GitHub repo (marketplace + stars)
 - Composition via public SDK/MCP, not monorepo product code
 - Evidence = result contract, not a tool name
-
-Tool surface: [TOOL_SURFACE.md](./TOOL_SURFACE.md). Acceptance: [ACCEPTANCE.md](./ACCEPTANCE.md). Competitive notes: [COMPETITIVE.md](./COMPETITIVE.md). Evidence contract: [EVIDENCE_CONTRACT.md](./EVIDENCE_CONTRACT.md).
 
 ## Phase status
 
