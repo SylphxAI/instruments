@@ -1,69 +1,25 @@
-# Sylphx Instruments
+# RETIRED — SylphxAI/instruments
 
-**Company portfolio knowledge** for Sylphx’s local-first agent instruments.
+**Status: archived / non-authority (2026-07-31)**
 
-This repository is **documentation only**. It does **not** host product runtimes,
-npm packages, monorepo workspaces, or `instruments-aliases`. Agents and humans
-should **know** these rules; product repositories **must not** depend on this
-repo as code.
+This repository was a temporary docs-only family hub. It is **not** product SSOT
+and must **not** be used as a monorepo, package source, or company portfolio map.
 
-Each product is an **independent GitHub repository** (separate marketplace
-listing, release train, and stars). Company-level **composability** means public
-SDK/MCP contracts between products — not a single mega-repo.
+## Where truth lives
 
-## Start here
-
-| Doc | Purpose |
+| Concern | Authority |
 | --- | --- |
-| **[STRATEGY.md](./STRATEGY.md)** | **Final strategy, positioning, backlog, Done bar** |
-| [CONSTITUTION.md](./CONSTITUTION.md) | Hard constraints |
-| [STATUS.md](./STATUS.md) | Honest readiness matrix |
-| [PHASE_TARGETS.md](./PHASE_TARGETS.md) | Phase A/B/C |
-| [PHASE_B_RESIDUALS.md](./PHASE_B_RESIDUALS.md) | Honest Phase B residual contract |
-| [PHASE_C.md](./PHASE_C.md) | Brand/growth landed vs external blockers |
-| [DELIVERY_AUDIT.md](./DELIVERY_AUDIT.md) | Objective vs evidence matrix |
-| scripts/check-marketplace-server-json.ts | Brand titles in server.json |
-| [EVIDENCE_CONTRACT.md](./EVIDENCE_CONTRACT.md) | Evidence = result contract, not a tool |
-| [COMPETITIVE.md](./COMPETITIVE.md) | Peer anchors |
-| [ACCEPTANCE.md](./ACCEPTANCE.md) | Checklist |
-| [TOOL_SURFACE.md](./TOOL_SURFACE.md) | Clear tools policy |
-| [NAMING.md](./NAMING.md) | Brand ↔ repo/package |
-| [PRODUCTS.md](./PRODUCTS.md) | Short product pointers |
-| [INSTALL.md](./INSTALL.md) | Independent install |
-| [CONTINUOUS_BENCH.md](./CONTINUOUS_BENCH.md) | Per-repo public-proof runbook |
+| Each product (Citra, Iris, Cue, Prism, Spine, Lookout, …) | That product’s own GitHub repository |
+| Company thin product↔repo map | Private `SylphxAI/portfolio` |
+| Brand assets | `SylphxAI/brand` |
 
-## Products (independent repos)
+## Active independent product repos
 
-| Brand | Repository | Job |
-| --- | --- | --- |
-| **Citra** | [pdf-reader-mcp](https://github.com/SylphxAI/pdf-reader-mcp) | PDF evidence for agents |
-| **Iris** | [image-reader-mcp](https://github.com/SylphxAI/image-reader-mcp) | Image evidence |
-| **Cue** | [video-reader-mcp](https://github.com/SylphxAI/video-reader-mcp) | Video timeline evidence |
-| **Prism** | [smart-reader-mcp](https://github.com/SylphxAI/smart-reader-mcp) | Media sniff + route |
-| **Spine** | [architecture-reader-mcp](https://github.com/SylphxAI/architecture-reader-mcp) | Repo architecture engine |
-| **Lookout** | [lookout](https://github.com/SylphxAI/lookout) | Local web search/fetch |
+- https://github.com/SylphxAI/pdf-reader-mcp (Citra)
+- https://github.com/SylphxAI/image-reader-mcp (Iris)
+- https://github.com/SylphxAI/video-reader-mcp (Cue)
+- https://github.com/SylphxAI/smart-reader-mcp (Prism)
+- https://github.com/SylphxAI/architecture-reader-mcp (Spine)
+- https://github.com/SylphxAI/lookout (Lookout)
 
-## Constitution (short)
-
-1. **Local-first** — no required cloud API key on the default path  
-2. **Fast · light · powerful**  
-3. **Clear tools** — not pathological merge, not vanity explosion  
-4. **Evidence** = result contract (locators/routes/warnings), **not** a tool named `evidence_first`  
-5. **Each product delivers** Core + SDK + CLI + MCP + tests **in its own repo**  
-6. **Composition** via public SDK/MCP contracts — **not** monorepo source import  
-
-## Non-goals for this repo
-
-- Hosting `@sylphx/*` product packages  
-- Bundling MCP servers for a single marketplace entry  
-- Owning product release CI for all instruments  
-- `packages/instruments-aliases/*` or multi-product monorepo shipping  
-
-## Archived (not primary Instruments)
-
-- [filesystem-mcp](https://github.com/SylphxAI/filesystem-mcp) (archived)  
-- awesome-mcp-servers (archived)  
-
-## License
-
-MIT (documentation)
+Historical docs in this repo are frozen snapshots only.
