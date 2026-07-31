@@ -8,7 +8,7 @@ Principle: few independently meaningful tools; Tool Search friendly; **no** `evi
 | **Iris** | `read_image` | OCR flags | Agent Media Twin |
 | **Cue** | `read_video` | optional frame/OCR evidence | timeline honesty |
 | **Prism** | `read_media` | — | sniff → delegate |
-| **Spine** | 8: index, status, overview, search, path, trace, impact, evidence | — | neighbors via overview/search flags |
+| **Spine** | 8 primary: index, status, overview, search, path, trace, impact, evidence | `architecture_context_pack` | neighbors via overview/search; pack for agent context |
 | **Lookout** | search, fetch, extract, cache | crawl, research | light default |
 
 Composition is via public SDK/MCP contracts across **independent repos**, not monorepo tool merging.

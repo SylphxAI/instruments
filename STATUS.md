@@ -1,6 +1,6 @@
 # Instruments readiness (honest)
 
-Last verified: 2026-07-31 (Spine orphans/browse fanIn; Lookout query-term + host filters).
+Last verified: 2026-07-31 (Spine context_pack + orphans; Lookout host filters).
 This is **portfolio knowledge**, not product release authority. Each product’s CI and tags own ship truth.
 
 Master strategy + backlog: **[STRATEGY.md](./STRATEGY.md)**.
@@ -21,7 +21,7 @@ Master strategy + backlog: **[STRATEGY.md](./STRATEGY.md)**.
 | **Iris** | image-reader-mcp | Strong | early | release-gate passed; OCR honesty skill | Citra-depth OCR residual |
 | **Cue** | video-reader-mcp | Strong | early | release-gate passed; ffprobe honesty | Live brand npm needs auth |
 | **Prism** | smart-reader-mcp | Strong | early | release-gate passed; sniff public-proof | e2e needs sibling natives |
-| **Spine** | architecture-reader-mcp | Strong/Partial | early | **`aae41b0`**: orphans on overview/status; empty-browse skips repository + `fanIn=` explain; core **81** tests; gate **24/24** | Not full Graphify/UA ecosystem; advanced `context_pack` still open |
+| **Spine** | architecture-reader-mcp | Strong/Partial | early | **`2ee17c6`**: advanced `architecture_context_pack`; orphans; browse fanIn; core **82** tests; gate **24/24**; CLI JSON fixed | Not full Graphify/UA language/UX ecosystem |
 | **Lookout** | lookout | Strong/Partial | early | **`2f1eaa9`**: query-term boost; **hostsInclude/hostsExclude**; tests **32** pass / 1 skip; gate green | Not full wigolo browser loops |
 
 Peer anchors (order of magnitude): Graphify ~100k, Understand-Anything ~77k, wigolo ~4k.
@@ -51,4 +51,4 @@ an `instruments` package or aliases farm. Composition is via public SDK/MCP cont
 
 ## Not claimed complete
 
-Equal SOTA peer parity across all six, formal live brand npm publishes (`@sylphx/citra`, …), continuous peer-beating public benches, and Spine `architecture_context_pack` remain **open**.
+Equal SOTA peer parity across all six, formal live brand npm publishes (`@sylphx/citra`, …), and continuous peer-beating public benches remain **open**.

@@ -25,7 +25,7 @@ Each product independently delivers:
 | Iris | VLM-default stacks | Deterministic media twin + OCR bbox + release-gate | Public proof + gate |
 | Cue | frame VLM stacks | Timeline evidence + ffprobe honesty | Public proof + gate |
 | Prism | multi-server wiring | Single sniff/route with evidence envelope | Sniff public proof |
-| Spine | Understand-Anything / Graphify | Ranked query, path, reverse impact, multi-language, skill | Cycles + neighbors; PHP/Ruby; multi-lang extractors |
+| Spine | Understand-Anything / Graphify | Ranked query, path, reverse impact, multi-language, skill | Cycles + neighbors + orphans + context_pack; multi-lang extractors |
 | Lookout | wigolo | Light default search/fetch/extract/research + SSRF + CI | Richer extract meta; host diversity; offline research |
 
 Residual: full peer feature parity and peer-beating published benches.
