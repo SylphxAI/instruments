@@ -1,0 +1,115 @@
+{
+  "generatedAt": "2026-07-31T19:03:33.019Z",
+  "products": [
+    {
+      "brand": "Citra",
+      "repo": "pdf-reader-mcp",
+      "ok": true,
+      "title": "Citra",
+      "titleOk": true,
+      "pkgOk": true,
+      "keys": [
+        "$schema",
+        "name",
+        "title",
+        "description",
+        "repository",
+        "version",
+        "websiteUrl",
+        "packages"
+      ]
+    },
+    {
+      "brand": "Iris",
+      "repo": "image-reader-mcp",
+      "ok": true,
+      "title": "Iris",
+      "titleOk": true,
+      "pkgOk": true,
+      "keys": [
+        "$schema",
+        "name",
+        "title",
+        "description",
+        "repository",
+        "version",
+        "websiteUrl",
+        "packages"
+      ]
+    },
+    {
+      "brand": "Cue",
+      "repo": "video-reader-mcp",
+      "ok": true,
+      "title": "Cue",
+      "titleOk": true,
+      "pkgOk": true,
+      "keys": [
+        "$schema",
+        "name",
+        "title",
+        "description",
+        "repository",
+        "version",
+        "websiteUrl",
+        "packages"
+      ]
+    },
+    {
+      "brand": "Prism",
+      "repo": "smart-reader-mcp",
+      "ok": true,
+      "title": "Prism",
+      "titleOk": true,
+      "pkgOk": true,
+      "keys": [
+        "$schema",
+        "name",
+        "title",
+        "description",
+        "repository",
+        "version",
+        "websiteUrl",
+        "packages"
+      ]
+    },
+    {
+      "brand": "Spine",
+      "repo": "architecture-reader-mcp",
+      "ok": true,
+      "title": "Spine",
+      "titleOk": true,
+      "pkgOk": true,
+      "keys": [
+        "$schema",
+        "name",
+        "title",
+        "description",
+        "repository",
+        "version",
+        "websiteUrl",
+        "packages"
+      ]
+    },
+    {
+      "brand": "Lookout",
+      "repo": "lookout",
+      "ok": true,
+      "title": "Lookout",
+      "titleOk": true,
+      "pkgOk": true,
+      "keys": [
+        "$schema",
+        "name",
+        "title",
+        "description",
+        "repository",
+        "version",
+        "websiteUrl",
+        "packages"
+      ]
+    }
+  ],
+  "ok": true,
+  "note": "Marketplace listing registration is still per-repo external step (Phase C residual)."
+}

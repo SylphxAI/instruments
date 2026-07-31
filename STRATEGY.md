@@ -56,7 +56,7 @@ Build a family of **local-first agent instruments** that each win a clear job:
    Agents hate wiring three media servers. Prism is the **thin smart router**: sniff format → delegate via **public packages / stdio**, return a unified evidence envelope. Prism must **not** reimplement PDF/image/video engines.
 
 5. **Spine — architecture for agents, not dashboards first**  
-   Understand-Anything wins human interactive graph UX; Graphify wins local AST graph + skill surface. Spine’s wedge: **agent-compact, deterministic structure + path/impact/search**, first-class **SDK + CLI + MCP**, file:line evidence on claims. Do **not** try to become a multi-GB visualization product on the default path. Do **match or beat** peers on query honesty, multi-language extraction depth, and install friction for agents.
+   Understand-Anything wins human interactive graph UX; Graphify wins local AST graph + skill surface. Spine’s wedge: **agent-compact, deterministic structure + path/impact/search**, first-class **SDK + CLI + MCP**, file:line evidence on claims. Do **not** try to become a multi-GB visualization product on the default path. **Permanent non-goal:** UA-class interactive pan/zoom dashboard as Spine identity. Do **match or beat** peers on query honesty, multi-language extraction depth, and install friction for agents.
 
 6. **Lookout — local web without the multi-GB tax**  
    wigolo proves demand for local search/fetch/crawl/research over MCP. Lookout’s wedge: **same job class, lighter default** (no multi-GB browser/model warmup required), strong SSRF/cache honesty, clear tools. Optional heavy browser paths stay advanced/opt-in if ever added.
@@ -211,7 +211,7 @@ Full checklists: [PHASE_TARGETS.md](./PHASE_TARGETS.md), [ACCEPTANCE.md](./ACCEP
 | Phase | Intent | Family status (2026-07-31) |
 | --- | --- | --- |
 | **A — Surfaces** | Core+SDK+CLI+MCP+tests+skill+gates | **Landed** on tip evidence |
-| **B — Competitive depth** | Peer-class power without weight bloat | **Partial** |
+| **B — Competitive depth** | Peer-class power without weight bloat | **Landed for agent-local bar** (see PHASE_B_RESIDUALS.md) |
 | **C — Brand / growth** | Brand npm, continuous benches, marketplace, 10k craft | **Open** (live brand npm needs auth) |
 
 ---

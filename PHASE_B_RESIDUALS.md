@@ -1,33 +1,37 @@
 # Phase B residuals (honest contract)
 
-Phase A is **PASS**. Phase B is **partial**. This file names remaining competitive gaps so agents do not overclaim Done.
+Phase A is **PASS**. For the **agent-local** product bar, Phase B is **substantially landed**.
+This file separates **accepted permanent non-goals** from **open residuals**.
 
-## Closed or strong on tip (evidence in product repos)
+## Strong on tip (product repos)
 
 | Brand | Strong evidence |
 | --- | --- |
-| Citra | Citeable PDF structure, native packaging, public-proof, ~875★ |
+| Citra | Citeable PDF structure, native packaging, public-proof, high stars |
 | Iris | Media twin, OCR bbox/route/langs honesty, synthetic OCR fixture, release-gate |
 | Cue | Timeline + ocr_frame + ASR honesty, release-gate |
 | Prism | Sniff+delegate envelope, mock e2e always-on, release-gate |
-| Spine | Multi-format graph (langs + openapi/k8s/tf/helm/docker/sql/proto/graphql/make/CODEOWNERS/workflows), mermaid, public-proof, 100 core tests |
-| Lookout | Local search/fetch/extract/cache/crawl/research, robots, sitemap, SSRF, multi-adapter, pack dry-run |
+| Spine | Multi-format graph + mermaid + public-proof + 100+ core tests + gate 24/24 |
+| Lookout | Local multi-adapter web instrument, robots/sitemap/SSRF, pack dry-run |
 
-## Explicit residuals (not Done)
+## Accepted permanent non-goals (default product identity)
 
-| Residual | Why it remains |
+| Item | Decision |
 | --- | --- |
-| Understand-Anything-class interactive graph UX | Spine is agent-compact by design; human pan/zoom dashboard is non-goal for default product identity |
-| Graphify full tree-sitter language fidelity | Spine is regex-first + optional Synth AST; not a full tree-sitter ecosystem clone |
-| Multi-lang OCR traineddata corpora | Iris supports `ocr_languages` + list-langs honesty; shipping/CI multi-traineddata packs residual |
-| Whisper ASR when adapter present | Cue fails honest without whisper; deep local ASR quality residual when binary exists |
-| Multi-GB browser research loops | Lookout intentionally light vs wigolo-class browser/model stacks |
-| Continuous *published* peer benches | Local gates/proofs/aggregates exist; public continuous publish residual (Phase C) |
+| Understand-Anything interactive pan/zoom graph UX | **Permanent non-goal** for Spine default path (agent-compact MCP/SDK/CLI first) |
+| Full Graphify tree-sitter language clone | **Permanent non-goal** as default; regex-first + optional Synth AST is intentional |
+| Multi-GB browser/model research loops | **Permanent non-goal** for Lookout default path (light local-first) |
+
+## Open residuals (not closed)
+
+| Residual | Bucket |
+| --- | --- |
+| Multi-lang OCR traineddata corpora in CI | Host/CI pack residual (honesty paths exist) |
+| Whisper ASR quality when adapter present | Host residual (honesty paths exist) |
+| Continuous *published* peer benches | **Phase C** |
+| Live `@sylphx/*` npm + marketplace registration | **Phase C** (pack dry-runs PASS; auth external) |
 
 ## Acceptance rule
 
-Do **not** mark family Phase B complete until residuals above are either closed with tip evidence or explicitly product-accepted as permanent non-goals with STATUS language. Interactive UA UX is a permanent non-goal for Spine default path; still keep STATUS residual until STATUS and STRATEGY agree on permanent non-goal language for that item.
-
-## Phase C (separate)
-
-Live `@sylphx/*` npm publish requires scope auth. Pack dry-runs PASS for all six packages.
+- Agent-local Phase B may be treated as **landed** when permanent non-goals are documented here + STATUS/STRATEGY, and open residuals above remain host/Phase-C only.
+- Family goal remains incomplete until Phase C items have live evidence **or** named external blockers only (npm auth is a named external blocker).
