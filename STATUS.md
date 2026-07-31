@@ -1,6 +1,6 @@
 # Instruments readiness (honest)
 
-Last verified: 2026-07-31 (defaultExcludes status, og:description/lang extract, skill honesty).
+Last verified: 2026-07-31 (path hop node summaries, search host field, skill refresh).
 This is **portfolio knowledge**, not product release authority. Each product’s CI and tags own ship truth.
 
 ## Legend
@@ -15,12 +15,12 @@ This is **portfolio knowledge**, not product release authority. Each product’s
 
 | Brand | Repo | Surfaces | Behavior evidence (examples) | Residual vs bar |
 | --- | --- | --- | --- | --- |
-| **Citra** | pdf-reader-mcp | Strong | Public proof sample.pdf; skill; brand plan | Live `@sylphx/citra` needs npm auth |
+| **Citra** | pdf-reader-mcp | Strong | Skill sources API; public-proof sample.pdf | Live `@sylphx/citra` needs npm auth |
 | **Iris** | image-reader-mcp | Strong | Skill OCR honesty; public-proof | Citra-depth OCR residual |
 | **Cue** | video-reader-mcp | Strong | Skill + public-proof ffprobe honesty | Live brand npm needs auth |
-| **Prism** | smart-reader-mcp | Strong | Sniff public proof + brandPublishDoc/skill fields | e2e needs sibling natives |
-| **Spine** | architecture-reader-mcp | Strong/Partial | status defaultExcludes; scan echo; 77 tests; gate 24/24 | Not full Graphify/UA ecosystem |
-| **Lookout** | lookout | Strong/Partial | html lang + og:description; relative links; 30 tests | Not full wigolo browser loops |
+| **Prism** | smart-reader-mcp | Strong | Skill sniff SDK; public-proof | e2e needs sibling natives |
+| **Spine** | architecture-reader-mcp | Strong/Partial | path/trace hops with fromNode/toNode; 77 tests; gate 24/24 | Not full Graphify/UA ecosystem |
+| **Lookout** | lookout | Strong/Partial | search hit host field; meta extract; 30 tests | Not full wigolo browser loops |
 
 ## What Instruments is
 
