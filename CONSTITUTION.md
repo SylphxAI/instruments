@@ -29,4 +29,10 @@ Citra/Iris/Cue packages). They do not share a monorepo source tree for shipping.
 ## Archived (not Instruments primary)
 
 - `filesystem-mcp` (archived)  
-- `awesome-mcp-servers` (archived)  
+- `awesome-mcp-servers` (archived)
+
+## Not a product runtime
+
+This repository documents company positioning. Product repositories **must not**
+depend on, vendor, or import `SylphxAI/instruments` as code. Agents and humans
+should *know* these rules; they do not *ship* them as a package inside each product.
