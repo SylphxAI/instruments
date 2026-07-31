@@ -28,7 +28,7 @@ listing, release train, and stars).
 5. **Each product delivers** Core + SDK + CLI + MCP + tests **in its own repo**  
 6. **Composition** happens via public SDK/MCP contracts between products — not by importing sibling source trees  
 
-See [CONSTITUTION.md](./CONSTITUTION.md) and [NAMING.md](./NAMING.md).
+See [CONSTITUTION.md](./CONSTITUTION.md), [NAMING.md](./NAMING.md), and honest [STATUS.md](./STATUS.md).
 
 ## Non-goals for this repo
 
