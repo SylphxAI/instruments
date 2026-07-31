@@ -1,12 +1,14 @@
 {
-  "generatedAt": "2026-07-31T19:40:00Z",
+  "generatedAt": "2026-07-31T20:00:00Z",
   "phaseA": "PHASE_A_CHECK=PASS",
   "familyReleaseGateBrandOk": true,
   "familyNpmPackDryRunOk": true,
+  "phaseB": "substantially_landed_see_PHASE_B_RESIDUALS",
+  "phaseC": "open_npm_auth_external",
   "tips": {
-    "architecture-reader-mcp": "8fae297",
+    "architecture-reader-mcp": "8ff8461",
     "lookout": "e20a698",
-    "image-reader-mcp": "1e7650f",
+    "image-reader-mcp": "950801a",
     "video-reader-mcp": "a537789",
     "smart-reader-mcp": "b503f2b",
     "pdf-reader-mcp": "ece45af"

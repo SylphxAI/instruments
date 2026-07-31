@@ -19,6 +19,7 @@ SDK/MCP contracts between products — not a single mega-repo.
 | [CONSTITUTION.md](./CONSTITUTION.md) | Hard constraints |
 | [STATUS.md](./STATUS.md) | Honest readiness matrix |
 | [PHASE_TARGETS.md](./PHASE_TARGETS.md) | Phase A/B/C |
+| [PHASE_B_RESIDUALS.md](./PHASE_B_RESIDUALS.md) | Honest Phase B residual contract |
 | [EVIDENCE_CONTRACT.md](./EVIDENCE_CONTRACT.md) | Evidence = result contract, not a tool |
 | [COMPETITIVE.md](./COMPETITIVE.md) | Peer anchors |
 | [ACCEPTANCE.md](./ACCEPTANCE.md) | Checklist |
