@@ -23,11 +23,11 @@ Family surface audit: `bash scripts/check-phase-a.sh` → `PHASE_A_CHECK=PASS`.
 | Brand | Competitive anchor | Phase B bar | Tip note |
 | --- | --- | --- | --- |
 | Citra | dump-text PDF MCPs | Citeable structure + native speed + public benches | Flagship; skill + sample.pdf public proof |
-| Iris | VLM-default stacks | Deterministic media twin + OCR bbox + release-gate | Public proof + gate |
+| Iris | VLM-default stacks | Deterministic media twin + OCR bbox + release-gate | Synthetic OCR fixture + list-langs honesty + gate |
 | Cue | frame VLM stacks | Timeline evidence + ffprobe honesty | Public proof + gate |
 | Prism | multi-server wiring | Single sniff/route with evidence envelope | Sniff public proof |
-| Spine | Understand-Anything / Graphify | Ranked query, path, reverse impact, multi-language, skill | Mermaid path/impact/overview/context_pack; proto/sql/docker/workflows/shell/C; npm scripts; cycles/orphans |
-| Lookout | wigolo | Light default search/fetch/extract/research + SSRF + CI | Multi-adapter search; research hosts; crawl excerpts; SSRF |
+| Spine | Understand-Anything / Graphify | Ranked query, path, reverse impact, multi-language, skill | Mermaid; proto/graphql/sql/docker/make/CODEOWNERS/workflows/shell/C; npm scripts; cycles/orphans |
+| Lookout | wigolo | Light default search/fetch/extract/research + SSRF + CI | Multi-adapter search; robots crawl; research hosts; crawl excerpts; SSRF |
 
 Residual: full peer feature parity and peer-beating published benches.
 

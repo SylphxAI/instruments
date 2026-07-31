@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-31T18:42:55Z",
+  "generatedAt": "2026-07-31T19:00:00Z",
   "phaseA": "PHASE_A_CHECK=PASS",
   "tips": {
-    "pdf-reader-mcp": "ece45af",
-    "image-reader-mcp": "e24ff68",
+    "architecture-reader-mcp": "3ade857",
+    "lookout": "684fdcd",
+    "image-reader-mcp": "397dfcf",
     "video-reader-mcp": "c9ddb3c",
     "smart-reader-mcp": "430f61b",
-    "architecture-reader-mcp": "6ed941f",
-    "lookout": "578d012",
-    "instruments": "4d23ed9"
+    "pdf-reader-mcp": "ece45af",
+    "instruments": "274cdc7"
   }
 }
