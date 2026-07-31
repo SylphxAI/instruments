@@ -1,6 +1,6 @@
 # Instruments readiness (honest)
 
-Last verified: 2026-07-31 (CLI include/exclude/types, lookout skill env).
+Last verified: 2026-07-31 (exclude merge/defaults, text extract, 77 spine tests).
 This is **portfolio knowledge**, not product release authority. Each product’s CI and tags own ship truth.
 
 ## Legend
@@ -19,8 +19,8 @@ This is **portfolio knowledge**, not product release authority. Each product’s
 | **Iris** | image-reader-mcp | Strong | Public proof; OCR path reported honest when tesseract absent | Citra-depth OCR residual |
 | **Cue** | video-reader-mcp | Strong | Public proof with ffprobe/duration honesty | Live brand npm needs auth |
 | **Prism** | smart-reader-mcp | Strong | Sniff public proof PDF/PNG/MP4; skill + gate | e2e sibling natives residual |
-| **Spine** | architecture-reader-mcp | Strong/Partial | CLI include/exclude/types/neighbors; full agent surface; 76 tests; gate 24/24 | Not full Graphify/UA ecosystem |
-| **Lookout** | lookout | Strong/Partial | Skill env complete; prune/maxAge/fetch limits; 27 tests | Not full wigolo browser loops |
+| **Spine** | architecture-reader-mcp | Strong/Partial | exclude extends defaults + scan echo; expanded default excludes; 77 tests; gate 24/24 | Not full Graphify/UA ecosystem |
+| **Lookout** | lookout | Strong/Partial | text/plain extract; fetch limits; 28 tests | Not full wigolo browser loops |
 
 ## What Instruments is
 
