@@ -1,6 +1,6 @@
 # Instruments readiness (honest)
 
-Last verified: 2026-07-31 (import cycles, deterministic overview, competitive docs).
+Last verified: 2026-07-31 (unknownImpact, topFanIn, acceptance checklist).
 This is **portfolio knowledge**, not product release authority. Each product’s CI and tags own ship truth.
 
 ## Legend
@@ -19,8 +19,8 @@ This is **portfolio knowledge**, not product release authority. Each product’s
 | **Iris** | image-reader-mcp | Strong | Public proof; OCR path reported honest when tesseract absent | Citra-depth OCR residual |
 | **Cue** | video-reader-mcp | Strong | Public proof no-subtitle.mp4; release-gate + skill | Live dual-name publish needs npm auth |
 | **Prism** | smart-reader-mcp | Strong | Sniff public proof PDF/PNG/MP4; skill + gate | e2e sibling natives residual |
-| **Spine** | architecture-reader-mcp | Strong/Partial | Import cycles; PHP; sorted overview; neighbors; gate green | Not full Graphify/UA ecosystem |
-| **Lookout** | lookout | Strong/Partial | robots/json extract; canonical/og; host diversity | Not full wigolo browser loops |
+| **Spine** | architecture-reader-mcp | Strong/Partial | unknownImpact; topFanIn; import cycles; multi-lang; gate 24/24; 70 tests | Not full Graphify/UA ecosystem |
+| **Lookout** | lookout | Strong/Partial | rank explain; robots/json; host diversity; 25 tests | Not full wigolo browser loops |
 
 ## What Instruments is
 
@@ -34,7 +34,7 @@ an `instruments` package or aliases farm. Composition is via public SDK/MCP cont
 - Composition via public SDK/MCP, not monorepo product code
 - Evidence = result contract, not a tool name
 
-Competitive notes: [COMPETITIVE.md](./COMPETITIVE.md). Evidence contract: [EVIDENCE_CONTRACT.md](./EVIDENCE_CONTRACT.md).
+Acceptance: [ACCEPTANCE.md](./ACCEPTANCE.md). Competitive notes: [COMPETITIVE.md](./COMPETITIVE.md). Evidence contract: [EVIDENCE_CONTRACT.md](./EVIDENCE_CONTRACT.md).
 
 ## Phase status
 
