@@ -1,6 +1,6 @@
 # Instruments readiness (honest)
 
-Last verified: 2026-07-31 (path hop node summaries, search host field, skill refresh).
+Last verified: 2026-07-31 (browse fan-in search, relationKinds, crawl title decode).
 This is **portfolio knowledge**, not product release authority. Each product’s CI and tags own ship truth.
 
 ## Legend
@@ -19,8 +19,8 @@ This is **portfolio knowledge**, not product release authority. Each product’s
 | **Iris** | image-reader-mcp | Strong | Skill OCR honesty; public-proof | Citra-depth OCR residual |
 | **Cue** | video-reader-mcp | Strong | Skill + public-proof ffprobe honesty | Live brand npm needs auth |
 | **Prism** | smart-reader-mcp | Strong | Skill sniff SDK; public-proof | e2e needs sibling natives |
-| **Spine** | architecture-reader-mcp | Strong/Partial | path/trace hops with fromNode/toNode; 77 tests; gate 24/24 | Not full Graphify/UA ecosystem |
-| **Lookout** | lookout | Strong/Partial | search hit host field; meta extract; 30 tests | Not full wigolo browser loops |
+| **Spine** | architecture-reader-mcp | Strong/Partial | empty-query fan-in browse; relationKinds; 79 tests; gate 24/24 | Not full Graphify/UA ecosystem |
+| **Lookout** | lookout | Strong/Partial | host hits; meta extract; crawl title entities; 30 tests | Not full wigolo browser loops |
 
 ## What Instruments is
 
