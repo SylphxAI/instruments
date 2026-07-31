@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-31T19:30:00Z",
+  "generatedAt": "2026-07-31T18:50:00Z",
   "phaseA": "PHASE_A_CHECK=PASS",
+  "familyPublicProofAggregateOk": true,
   "tips": {
-    "architecture-reader-mcp": "7f7eb3b",
+    "architecture-reader-mcp": "37cd119",
     "lookout": "a816b62",
     "image-reader-mcp": "397dfcf",
     "video-reader-mcp": "c9ddb3c",
-    "smart-reader-mcp": "430f61b",
-    "pdf-reader-mcp": "ece45af",
-    "instruments": "pending"
+    "smart-reader-mcp": "b503f2b",
+    "pdf-reader-mcp": "ece45af"
   }
 }

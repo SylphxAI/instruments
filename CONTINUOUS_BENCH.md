@@ -55,3 +55,11 @@ bash scripts/phase-b-snapshot.sh
 ```
 
 Writes `benchmark-artifacts/phase_b_snapshot.json` with tip SHAs + Phase A line.
+
+## Aggregate local proofs
+
+```bash
+bun scripts/aggregate-public-proofs.ts
+```
+
+Reads each product `benchmark-artifacts/*` into `family_public_proof_aggregate.json`.

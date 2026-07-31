@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-07-31T18:50:02.432Z",
+  "note": "Aggregate of local product artifacts only — not continuous public publish (Phase C residual).",
+  "phaseA": "see scripts/check-phase-a.sh",
+  "products": [
+    {
+      "brand": "Citra",
+      "repo": "pdf-reader-mcp",
+      "artifacts": {
+        "citra_public_proof.json": {
+          "present": true,
+          "ok": true
+        },
+        "pdf_sota_release_gate.json": {
+          "present": true,
+          "ok": true,
+          "status": "passed"
+        }
+      },
+      "complete": true
+    },
+    {
+      "brand": "Iris",
+      "repo": "image-reader-mcp",
+      "artifacts": {
+        "iris_public_proof.json": {
+          "present": true,
+          "ok": true
+        },
+        "image_reader_release_gate.json": {
+          "present": true,
+          "ok": true,
+          "status": "passed"
+        }
+      },
+      "complete": true
+    },
+    {
+      "brand": "Cue",
+      "repo": "video-reader-mcp",
+      "artifacts": {
+        "cue_public_proof.json": {
+          "present": true,
+          "ok": true
+        },
+        "video_reader_release_gate.json": {
+          "present": true,
+          "ok": true,
+          "status": "passed"
+        }
+      },
+      "complete": true
+    },
+    {
+      "brand": "Prism",
+      "repo": "smart-reader-mcp",
+      "artifacts": {
+        "prism_public_proof.json": {
+          "present": true,
+          "ok": true
+        },
+        "smart_reader_release_gate.json": {
+          "present": true,
+          "ok": true,
+          "status": "passed"
+        }
+      },
+      "complete": true
+    },
+    {
+      "brand": "Spine",
+      "repo": "architecture-reader-mcp",
+      "artifacts": {
+        "spine_public_proof.json": {
+          "present": true,
+          "ok": true
+        },
+        "architecture_reader_release_gate.json": {
+          "present": true,
+          "ok": true,
+          "status": "passed"
+        }
+      },
+      "complete": true
+    },
+    {
+      "brand": "Lookout",
+      "repo": "lookout",
+      "artifacts": {
+        "lookout_public_proof.json": {
+          "present": true,
+          "ok": true
+        },
+        "lookout_release_gate.json": {
+          "present": true,
+          "ok": true,
+          "status": "passed"
+        }
+      },
+      "complete": true
+    }
+  ],
+  "ok": true
+}
