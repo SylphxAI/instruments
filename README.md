@@ -20,6 +20,8 @@ SDK/MCP contracts between products — not a single mega-repo.
 | [STATUS.md](./STATUS.md) | Honest readiness matrix |
 | [PHASE_TARGETS.md](./PHASE_TARGETS.md) | Phase A/B/C |
 | [PHASE_B_RESIDUALS.md](./PHASE_B_RESIDUALS.md) | Honest Phase B residual contract |
+| [PHASE_C.md](./PHASE_C.md) | Brand/growth landed vs external blockers |
+| [DELIVERY_AUDIT.md](./DELIVERY_AUDIT.md) | Objective vs evidence matrix |
 | scripts/check-marketplace-server-json.ts | Brand titles in server.json |
 | [EVIDENCE_CONTRACT.md](./EVIDENCE_CONTRACT.md) | Evidence = result contract, not a tool |
 | [COMPETITIVE.md](./COMPETITIVE.md) | Peer anchors |

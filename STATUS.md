@@ -1,6 +1,6 @@
 # Instruments readiness (honest)
 
-Last verified: 2026-07-31 (spine export CLI; marketplace server.json PASS all 6; Phase B landed agent-local; Phase C npm auth external).
+Last verified: 2026-07-31 (DELIVERY_AUDIT; marketplace+pack+gates PASS; npm ENEEDAUTH Phase C).
 This is **portfolio knowledge**, not product release authority. Each product’s CI and tags own ship truth.
 
 Master strategy + backlog: **[STRATEGY.md](./STRATEGY.md)**.
@@ -21,7 +21,7 @@ Master strategy + backlog: **[STRATEGY.md](./STRATEGY.md)**.
 | **Iris** | image-reader-mcp | Strong | early | **`950801a`**: OCR fixture + traineddata residual docs; tests **38** | Host multi-traineddata residual |
 | **Cue** | video-reader-mcp | Strong | early | **`a537789`**: 30s install + ocr_frame + ASR honesty; tests **42** | Whisper depth when adapter present |
 | **Prism** | smart-reader-mcp | Strong | early | **`b503f2b`**: mock e2e + expectedDelegation + 30s install docs; tests **56** | Live native e2e optional |
-| **Spine** | architecture-reader-mcp | Strong | early | **`87029e8`**: `spine export` + helm/k8s/tf/openapi+…; mermaid; core **101**; gate **24/24** | Permanent non-goal: UA pan/zoom (PHASE_B_RESIDUALS) |
+| **Spine** | architecture-reader-mcp | Strong | early | **`87029e8`**: export+helm/k8s/tf/openapi+…; mermaid; core **101**; gate **24/24** | Permanent non-goal: UA pan/zoom |
 | **Lookout** | lookout | Strong/Partial | early | **`e20a698`**: sitemap seed; robots Allow; npm pack dry-run `@sylphx/lookout@0.1.0` | Live npm needs auth; not multi-GB browser |
 
 Peer anchors (order of magnitude): Graphify ~100k, Understand-Anything ~77k, wigolo ~4k.
@@ -48,7 +48,7 @@ an `instruments` package or aliases farm. Composition is via public SDK/MCP cont
 
 - **Phase A surfaces:** landed + **`scripts/check-phase-a.sh` PASS** (all six products)
 - **Phase B competitive depth:** **landed for agent-local bar** (PHASE_B_RESIDUALS: permanent non-goals accepted; host OCR/ASR packs + continuous *public* benches open → Phase C / host)
-- **Phase C brand/growth:** open (npm auth external blocker for live brand publish)
+- **Phase C brand/growth:** open — live npm **ENEEDAUTH** (external); pack dry-runs PASS; marketplace titles PASS; continuous *public* benches residual (see PHASE_C.md)
 
 ## Archived (explicit)
 

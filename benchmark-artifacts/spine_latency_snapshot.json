@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-07-31T19:05:56Z",
+  "product": "Spine",
+  "fixture": "/home/codex/src/github.com/SylphxAI/architecture-reader-mcp/fixtures/sample-repo",
+  "nodes": 126,
+  "edges": 126,
+  "latencyMs": {
+    "indexMs": 68.57249300000001,
+    "searchMs": 23.926411,
+    "pathMs": 23.233660000000015,
+    "impactMs": 25.760867999999988,
+    "overviewMs": 22.90280100000001,
+    "statusMs": 23.596946000000003,
+    "packMs": 22.654248999999993,
+    "browseMs": 22.433818000000002,
+    "evidenceMs": 22.58386299999995
+  },
+  "ok": true,
+  "note": "Local sample-repo agent query latencies \u2014 not continuous public peer publish (Phase C residual).",
+  "peerAnchors": {
+    "Understand-Anything": "interactive UX non-goal for Spine default",
+    "Graphify": "local AST peer; Spine adds MCP/SDK/mermaid/multi-format configs"
+  }
+}

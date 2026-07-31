@@ -89,3 +89,8 @@ bun scripts/npm-pack-dry-run-matrix.ts
 ```
 
 Writes `benchmark-artifacts/family_npm_pack_dry_run.json`.
+
+## Local latency snapshot
+
+Copied from Spine public-proof wall times into `benchmark-artifacts/spine_latency_snapshot.json`.
+Continuous public publication remains residual.
