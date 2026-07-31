@@ -22,7 +22,7 @@ Master strategy + backlog: **[STRATEGY.md](./STRATEGY.md)**.
 | **Cue** | video-reader-mcp | Strong | early | release-gate passed; ffprobe honesty | Live brand npm needs auth |
 | **Prism** | smart-reader-mcp | Strong | early | release-gate passed; sniff public-proof | e2e needs sibling natives |
 | **Spine** | architecture-reader-mcp | Strong/Partial | early | **`aae41b0`**: orphans on overview/status; empty-browse skips repository + `fanIn=` explain; core **81** tests; gate **24/24** | Not full Graphify/UA ecosystem; advanced `context_pack` still open |
-| **Lookout** | lookout | Strong/Partial | early | **`2c3d136`+**: query-term boost; **hostsInclude/hostsExclude**; tests **32** pass / 1 skip; gate green | Not full wigolo browser loops |
+| **Lookout** | lookout | Strong/Partial | early | **`2f1eaa9`**: query-term boost; **hostsInclude/hostsExclude**; tests **32** pass / 1 skip; gate green | Not full wigolo browser loops |
 
 Peer anchors (order of magnitude): Graphify ~100k, Understand-Anything ~77k, wigolo ~4k.
 
