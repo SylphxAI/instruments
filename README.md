@@ -26,6 +26,7 @@ SDK/MCP contracts between products — not a single mega-repo.
 | [NAMING.md](./NAMING.md) | Brand ↔ repo/package |
 | [PRODUCTS.md](./PRODUCTS.md) | Short product pointers |
 | [INSTALL.md](./INSTALL.md) | Independent install |
+| [CONTINUOUS_BENCH.md](./CONTINUOUS_BENCH.md) | Per-repo public-proof runbook |
 
 ## Products (independent repos)
 
