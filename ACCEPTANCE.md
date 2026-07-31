@@ -17,6 +17,9 @@ Run per product repo tip. Do not claim family Done until every row has current e
 Commands (examples):
 
 ```bash
+# family Phase A surface audit (docs-only instruments repo)
+bash scripts/check-phase-a.sh
+
 # each product
 bun test
 bun scripts/release-gate.ts   # or product-specific

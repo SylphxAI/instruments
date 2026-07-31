@@ -40,3 +40,10 @@ bash scripts/run-family-proofs.sh
 
 Runs each sibling product proof/gate when those checkouts exist beside `instruments`.
 Does **not** publish continuously (Phase C residual).
+
+## Phase A surface audit
+
+```bash
+bash scripts/check-phase-a.sh
+```
+
