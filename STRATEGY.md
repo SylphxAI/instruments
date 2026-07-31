@@ -212,7 +212,7 @@ Full checklists: [PHASE_TARGETS.md](./PHASE_TARGETS.md), [ACCEPTANCE.md](./ACCEP
 | --- | --- | --- |
 | **A — Surfaces** | Core+SDK+CLI+MCP+tests+skill+gates | **Landed** on tip evidence |
 | **B — Competitive depth** | Peer-class power without weight bloat | **Landed for agent-local bar** (see PHASE_B_RESIDUALS.md) |
-| **C — Brand / growth** | Brand npm, continuous benches, marketplace, 10k craft | **Open** (live brand npm needs auth) |
+| **C — Brand / growth** | Brand npm, continuous benches, marketplace, 10k craft | **Local readiness PASS**; live npm **ENEEDAUTH** external |
 
 ---
 

@@ -1,0 +1,38 @@
+# Continuous public verification of Instruments family SSOT scripts.
+# Does not publish npm packages (Phase C live publish needs @sylphx auth in product repos).
+name: family-verify
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+jobs:
+  ssot-scripts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+      - name: Validate SSOT markdown present
+        run: |
+          test -f STRATEGY.md
+          test -f CONSTITUTION.md
+          test -f STATUS.md
+          test -f PHASE_TARGETS.md
+          test -f PHASE_B_RESIDUALS.md
+          test -f PHASE_C.md
+          test -f DELIVERY_AUDIT.md
+          test -f EVIDENCE_CONTRACT.md
+          test -f NAMING.md
+          test -f TOOL_SURFACE.md
+      - name: Syntax-check TS scripts
+        run: |
+          bun build --outfile=/tmp/check-marketplace.js scripts/check-marketplace-server-json.ts
+          bun build --outfile=/tmp/aggregate.js scripts/aggregate-public-proofs.ts
+          bun build --outfile=/tmp/pack-matrix.js scripts/npm-pack-dry-run-matrix.ts
+      - name: Shell scripts executable
+        run: |
+          test -x scripts/check-phase-a.sh
+          test -x scripts/run-family-proofs.sh
+          test -x scripts/phase-b-snapshot.sh

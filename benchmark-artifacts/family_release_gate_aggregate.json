@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T19:04:58.622Z",
+  "generatedAt": "2026-07-31T19:06:50.010Z",
   "products": [
     {
       "brand": "Citra",
@@ -7,7 +7,7 @@
       "script": "scripts/public-proof.ts",
       "exitCode": 0,
       "ok": true,
-      "ms": 34.539192,
+      "ms": 37.408547999999996,
       "stderrTail": ""
     },
     {
@@ -16,7 +16,7 @@
       "script": "scripts/release-gate.ts",
       "exitCode": 0,
       "ok": true,
-      "ms": 97.972688,
+      "ms": 55.003731,
       "stderrTail": "Image reader release gate report written to /home/codex/src/github.com/SylphxAI/image-reader-mcp/benchmark-artifacts/image_reader_release_gate.json\n"
     },
     {
@@ -25,7 +25,7 @@
       "script": "scripts/release-gate.ts",
       "exitCode": 0,
       "ok": true,
-      "ms": 1121.934016,
+      "ms": 1146.205922,
       "stderrTail": "Video reader release gate report written to /home/codex/src/github.com/SylphxAI/video-reader-mcp/benchmark-artifacts/video_reader_release_gate.json\n"
     },
     {
@@ -34,7 +34,7 @@
       "script": "scripts/release-gate.ts",
       "exitCode": 0,
       "ok": true,
-      "ms": 547.986727,
+      "ms": 556.7522430000001,
       "stderrTail": "Smart reader release gate report written to /home/codex/src/github.com/SylphxAI/smart-reader-mcp/benchmark-artifacts/smart_reader_release_gate.json\n"
     },
     {
@@ -43,7 +43,7 @@
       "script": "scripts/release-gate.ts",
       "exitCode": 0,
       "ok": true,
-      "ms": 1383.1163689999998,
+      "ms": 1326.3357889999997,
       "stderrTail": "Architecture reader release gate report written to /home/codex/src/github.com/SylphxAI/architecture-reader-mcp/benchmark-artifacts/architecture_reader_release_gate.json\n"
     },
     {
@@ -52,7 +52,7 @@
       "script": "scripts/release-gate.ts",
       "exitCode": 0,
       "ok": true,
-      "ms": 27.65095599999995,
+      "ms": 25.971406000000115,
       "stderrTail": ""
     }
   ],

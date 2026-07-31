@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-07-31T19:05:56Z",
+  "generatedAt": "2026-07-31T19:07:30Z",
   "phaseA": "PASS",
-  "phaseB": "landed_agent_local",
-  "phaseC": "open_ENEEDAUTH_and_public_bench_publish",
-  "npmWhoami": "ENEEDAUTH",
-  "checks": {
+  "phaseB": "PASS_agent_local",
+  "phaseC_localReadiness": "PASS",
+  "phaseC_liveNpm": "ENEEDAUTH",
+  "familyVerify": {
     "phaseA": true,
-    "marketplaceServerJson": true,
+    "marketplace": true,
     "npmPackDryRun": true,
-    "familyReleaseGates": true
+    "releaseGates": true,
+    "proofsAggregate": true
   },
   "tips": {
-    "architecture-reader-mcp": "87029e8",
-    "lookout": "e20a698",
+    "pdf-reader-mcp": "ece45af",
     "image-reader-mcp": "950801a",
     "video-reader-mcp": "a537789",
     "smart-reader-mcp": "b503f2b",
-    "pdf-reader-mcp": "ece45af",
-    "instruments": "pending"
+    "architecture-reader-mcp": "87029e8",
+    "lookout": "e20a698"
   }
 }

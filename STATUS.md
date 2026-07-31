@@ -1,6 +1,6 @@
 # Instruments readiness (honest)
 
-Last verified: 2026-07-31 (DELIVERY_AUDIT; marketplace+pack+gates PASS; npm ENEEDAUTH Phase C).
+Last verified: 2026-07-31 (full family re-verify PASS; Phase C live npm ENEEDAUTH only external ship blocker).
 This is **portfolio knowledge**, not product release authority. Each product’s CI and tags own ship truth.
 
 Master strategy + backlog: **[STRATEGY.md](./STRATEGY.md)**.
@@ -48,7 +48,7 @@ an `instruments` package or aliases farm. Composition is via public SDK/MCP cont
 
 - **Phase A surfaces:** landed + **`scripts/check-phase-a.sh` PASS** (all six products)
 - **Phase B competitive depth:** **landed for agent-local bar** (PHASE_B_RESIDUALS: permanent non-goals accepted; host OCR/ASR packs + continuous *public* benches open → Phase C / host)
-- **Phase C brand/growth:** open — live npm **ENEEDAUTH** (external); pack dry-runs PASS; marketplace titles PASS; continuous *public* benches residual (see PHASE_C.md)
+- **Phase C brand/growth:** **local readiness PASS**; **live npm publish EXTERNAL BLOCKER** (`ENEEDAUTH`); continuous public peer-host residual (repo artifacts + family-verify CI landed)
 
 ## Archived (explicit)
 
@@ -57,4 +57,6 @@ an `instruments` package or aliases farm. Composition is via public SDK/MCP cont
 
 ## Not claimed complete
 
-Equal SOTA peer parity across all six, formal live brand npm publishes (`@sylphx/citra`, …), and continuous *published* peer-beating benches remain **open**. Local aggregates: `bun scripts/aggregate-public-proofs.ts`, `bun scripts/run-family-release-gates.ts` (brandOk=True) → `benchmark-artifacts/family_public_proof_aggregate.json` (ok=True).
+**Not claimed:** live dual-publish of brand npm ids without auth; multi-GB browser Lookout; UA pan/zoom Spine; CI multi-traineddata OCR corpora.
+
+**Claimed on tip:** agent-local Instruments family (A+B), pack dry-run all six, marketplace titles, family gates/proofs aggregates, public SSOT CI (`family-verify.yml`).
